@@ -238,7 +238,7 @@
                         }
                     }
                 ],
-                "replicas": "${REPLICAS}",
+                "replicas": 1,
                 "selector": {
                     "deploymentConfig": "${APPLICATION_NAME}"
                 },
