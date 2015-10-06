@@ -83,6 +83,18 @@
             "name": "IMAGE_STREAM_NAMESPACE",
             "value": "openshift",
             "required": true
+        },
+        {
+            "description": "Number of replicas.",
+            "name": "REPLICAS",
+            "value": "1",
+            "required": false
+        },
+        {
+            "description": "Deployment name.",
+            "name": "DEPLOYMENT_NAME",
+            "value": "test.war",
+            "required": true
         }
     ],
     "objects": [
