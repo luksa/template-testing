@@ -178,7 +178,13 @@
                             "kind": "ImageStreamTag",
                             "namespace": "${IMAGE_STREAM_NAMESPACE}",
                             "name": "jboss-eap64-openshift:1.1"
-                        }
+                        },
+                        "env": [
+                                {
+                                    "name": "BUILD_LOGLEVEL",
+                                    "value": "2" 
+                                }
+                        ]                    
                     }
                 },
                 "output": {
