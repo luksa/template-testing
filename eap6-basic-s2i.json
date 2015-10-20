@@ -93,7 +93,7 @@
         {
             "description": "Deployment archive name.",
             "name": "DEPLOYMENT_ARCHIVE_NAME",
-            "value": "test.war",
+            "value": "ROOT.war",
             "required": true
         }
     ],
